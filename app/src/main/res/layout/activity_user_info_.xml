@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gps"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.bilal.socialbuddy.GPS_Act"
+    android:orientation="vertical"
+    android:background="@drawable/fyp_back">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="User Credentials"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+
+        android:text="Home"
+        android:textStyle="bold"
+        android:id="@+id/map_home"
+        android:onClick="openHome"
+        android:textColor="#f4f4f4"
+        android:background="@drawable/oval_background"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/spinner_background"
+            android:id="@+id/edit_home1"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/spinner_background"
+            android:id="@+id/edit_home2"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Work"
+        android:textStyle="bold"
+        android:id="@+id/map_work"
+        android:onClick="openWork"
+        android:textColor="#f4f4f4"
+        android:background="@drawable/oval_background"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/spinner_background"
+            android:id="@+id/edit_work1"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/spinner_background"
+            android:id="@+id/edit_work2"/>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="SAVE"
+        android:textStyle="bold"
+        android:id="@+id/save_butt"
+        android:onClick="SaveUser"
+        android:textColor="#f4f4f4"
+        android:background="@drawable/oval_background"/>
+
+
+
+
+</LinearLayout>

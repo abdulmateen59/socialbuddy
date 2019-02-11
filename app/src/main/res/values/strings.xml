@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Social Buddy</string>
+    <string name="facebook_app_id">192456041236803</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_friend_info_">FriendInfo_Activity</string>
+    <string name="title_activity_friends_info_">friendsInfo_Activity</string>
+    <string name="title_activity_friend_info">Friend_info</string>
+</resources>

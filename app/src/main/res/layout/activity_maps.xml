@@ -1,0 +1,102 @@
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+
+android:weightSum="1"
+    android:background="@drawable/fyp_back">
+
+
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="4dp">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Done"
+
+        android:textColor="#fff"
+        android:onClick="back"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/oval_background"
+
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginRight="50dp"
+        android:text="Change Type"
+
+        android:textColor="#fff"
+        android:onClick="changeType"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/oval_background"
+
+
+        />
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="456dp"
+        android:orientation="horizontal">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="328dp"
+            android:layout_height="450dp" android:id="@+id/map"
+            tools:context="com.bilal.socialbuddy.MapsActivity"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="7dp"
+                android:text="+"
+                android:textSize="30dp"
+                android:textColor="#fff"
+                android:onClick="onZoom"
+                android:id="@+id/Bzoomin"
+                android:background="@drawable/oval_background"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="2dp"
+                android:text="-"
+                android:textSize="30dp"
+                android:textColor="#fff"
+                android:onClick="onZoom"
+                android:id="@+id/Bzoomout"
+                android:background="@drawable/oval_background"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

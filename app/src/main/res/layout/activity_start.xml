@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/front"
+
+    android:orientation="vertical"
+    tools:context="com.bilal.socialbuddy.Start">
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/oval_background"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="Turn ON/OFF GPS"
+        android:id="@+id/trackingButton"
+        android:onClick="trackLocation"/>
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/oval_background"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="Continue to App"
+        android:id="@+id/fb_cont"
+
+        android:onClick="cont_fb"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

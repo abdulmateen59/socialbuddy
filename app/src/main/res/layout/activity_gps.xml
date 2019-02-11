@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gps"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.bilal.socialbuddy.GPS_Act"
+    android:orientation="vertical"
+    android:background="@drawable/fyp_back">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Social Circle"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Add/Edit User Credentials"
+        android:textStyle="bold"
+        android:id="@+id/cont_butt"
+        android:onClick="openUser"
+        android:textColor="#f4f4f4"
+        android:background="@drawable/oval_background"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Add/Edit Friends"
+        android:textStyle="bold"
+        android:id="@+id/openFriend"
+        android:onClick="openFriend"
+        android:textColor="#f4f4f4"
+        android:background="@drawable/oval_background"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="View Progress"
+        android:textStyle="bold"
+        android:id="@+id/openFeedback"
+        android:onClick="openFeedback"
+        android:textColor="#f4f4f4"
+        android:background="@drawable/oval_background"/>
+
+
+
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Check Suggestion"
+        android:textStyle="bold"
+        android:id="@+id/sugg"
+        android:onClick="openSugg"
+        android:textColor="#f4f4f4"
+        android:background="@drawable/oval_background"/>
+
+
+
+
+</LinearLayout>
